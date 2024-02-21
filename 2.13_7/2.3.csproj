@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D23A8A5E-3FEF-43A7-B3FF-18482E87AE93}</ProjectGuid>
+    <ProjectGuid>{A7E8FA33-B70A-4E01-B4A5-F41DC0CCB48C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_2._13_5</RootNamespace>
-    <AssemblyName>_2._13_5</AssemblyName>
+    <RootNamespace>_2._13_7</RootNamespace>
+    <AssemblyName>2.13_7</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Triangle.cs" />
+    <Compile Include="Classes\TwoDShape.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

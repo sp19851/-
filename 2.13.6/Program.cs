@@ -5,11 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2._13_5
+namespace _2._13._6
 {
-    class Shapes3
+    class Shapes4
     {
-        //Добавить конструктор в класс Triangle.
         static void Main()
         {
             Triangle triangle1 = new Triangle("равнобедренный", 4.0, 4.0);
