@@ -27,12 +27,12 @@ namespace _2._13_7
                 triangle1.ShowDim();
                 Console.WriteLine("Площадь равна " + triangle1.Area());
                 Console.WriteLine();
-                Console.WriteLine("Сведения об объекте t2: ");
+                Console.WriteLine("Сведения об объекте triangle2: ");
                 triangle1.ShowStyle();
                 triangle1.ShowDim();
-                Console.WriteLine("Площадь равна " + triangle1.Area());
+                Console.WriteLine("Площадь равна " + triangle2.Area());
                 Console.WriteLine();
-                Console.WriteLine("Сведения об объекте t3: ");
+                Console.WriteLine("Сведения об объекте triangle3: ");
                 triangle3.ShowStyle();
                 triangle3.ShowDim();
                 Console.WriteLine("Площадь равна " + triangle3.Area());

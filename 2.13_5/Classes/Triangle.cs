@@ -9,14 +9,13 @@ namespace _2._13_5.Classes
     //клас наследник
     class Triangle : TwoDShape
     {
-        public string style; //тип треугольника, переменная только в наследнике
-                             //метод расчитывает площадь треугольника
+        string style; //переменная стала закрытой
 
         // Конструктор.
-        public Triangle(string s, double w, double h)
+        public Triangle(string s, double w, double h) 
         {
-            Width = w; // инициализировать член базового класса через свойство
-            Height = h; // инициализировать член базового класса через свойство
+            Width = w; // Обратите вниамнеи! Происходит инициализация члена базового класса через свойство
+            Height = h; // 
             style = s; // инициализировать член класса наследника (производного класса) напрямую через переменную
         }
 
@@ -24,7 +23,7 @@ namespace _2._13_5.Classes
         {
             return Width * Height / 2;
         }
-        //метод выводит информацию о типе треугольника
+        
         public void ShowStyle()
         {
             Console.WriteLine("Треугольник" + style);

@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Triangle.cs" />
-    <Compile Include="Classes\TwoDShape.cs" />
+    <Compile Include="Classes\01.TwoDShape.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

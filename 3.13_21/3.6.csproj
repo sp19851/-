@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Rectangle.cs" />
-    <Compile Include="Classes\Triangle.cs" />
-    <Compile Include="Classes\TwoDShape.cs" />
+    <Compile Include="Classes\03 .Rectangle.cs" />
+    <Compile Include="Classes\02. Triangle.cs" />
+    <Compile Include="Classes\01.TwoDShape.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

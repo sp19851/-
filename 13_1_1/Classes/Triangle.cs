@@ -18,7 +18,7 @@ namespace _13_1_1.Classes
         //метод выводит информацию о типе треугольника
         public void ShowStyle()
         {
-            Console.WriteLine("Треугольник" + style);
+            Console.WriteLine("Треугольник " + style);
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace _2._13_5.Classes
 {
     //клас наследник
-    class Triangle : TwoDShape
+    class Triangle : TwoDShape 
     {
         public string style; //тип треугольника, переменная только в наследнике
                              

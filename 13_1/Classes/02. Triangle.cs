@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _13_2.Classes
+namespace _13_1.Classes
 {
     //клас наследник
-    class Triangle : TwoDShape
+    class Triangle : TwoDShape //Обратите внимание на синтаксис, используемый в классе Triangle для наследования класса
     {
         public string style; //тип треугольника, переменная только в наследнике
-                             //метод расчитывает площадь треугольника
+        //метод расчитывает площадь треугольника
         public double Area()
         {
             return width * height / 2;
@@ -18,7 +18,7 @@ namespace _13_2.Classes
         //метод выводит информацию о типе треугольника
         public void ShowStyle()
         {
-            Console.WriteLine("Треугольник" + style);
+            Console.WriteLine("Треугольник " + style);
         }
     }
 }

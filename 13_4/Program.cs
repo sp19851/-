@@ -13,13 +13,13 @@ namespace _13_4
     {
         static void Main()
         {
-            DescendantClass heirClass = new DescendantClass();
+            DescendantClass descendantClass = new DescendantClass();
 
-            heirClass.Set(2, 3); //методы не вызывают ошибку, так как переменные доступны в классе наследнике
-            heirClass.Show();
+            descendantClass.Set(2, 3); //методы не вызывают ошибку, так как переменные доступны в классе наследнике
+            descendantClass.Show();
 
-            heirClass.SetK();
-            heirClass.ShowK();
+            descendantClass.SetK();
+            descendantClass.ShowK();
             
 
             Console.ReadLine();

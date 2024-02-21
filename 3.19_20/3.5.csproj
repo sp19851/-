@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\BaseClass.cs" />
-    <Compile Include="Classes\Derived2Class.cs" />
-    <Compile Include="Classes\DerivedClass.cs" />
+    <Compile Include="Classes\01.BaseClass.cs" />
+    <Compile Include="Classes\03.Derived2Class.cs" />
+    <Compile Include="Classes\02.DerivedClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
